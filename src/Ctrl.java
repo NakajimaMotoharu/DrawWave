@@ -8,6 +8,7 @@ public class Ctrl extends JFrame implements ActionListener {
 
 	public Ctrl(){
 		setSize(200, 100);
+		setTitle("Control Panel");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setLocation(0, Window.HEIGHT + 10);
 
